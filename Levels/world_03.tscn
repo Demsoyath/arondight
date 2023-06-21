@@ -19061,36 +19061,27 @@ position = Vector2(1248, 322)
 
 [node name="spikes2" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(1280, 322)
-damage = 0
 
 [node name="spikes3" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(1312, 322)
-damage = 0
 
 [node name="spikes4" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(1618, 319)
-damage = 0
 
 [node name="spikes5" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(1650, 319)
-damage = 0
 
 [node name="spikes6" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(1682, 319)
-damage = 0
 
 [node name="spikes7" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(2114, 1025)
-damage = 0
 
 [node name="spikes8" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(2146, 1025)
-damage = 0
 
 [node name="spikes9" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(2178, 1025)
-damage = 0
 
 [node name="spikes10" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(2193, 1025)
-damage = 0
