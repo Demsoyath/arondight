@@ -1,0 +1,162 @@
+[gd_scene load_steps=10 format=3 uid="uid://cdkuwqj0u2y5l"]
+
+[ext_resource type="PackedScene" uid="uid://chvt3316d7ywx" path="res://assets/traps/object_template.tscn" id="1_iqyav"]
+[ext_resource type="Texture2D" uid="uid://63rba54m3rmg" path="res://assets/Medieval_Castle_Asset_Pack/Tiles/spikes.png" id="2_e32q4"]
+[ext_resource type="Script" path="res://assets/traps/SPIKES.gd" id="2_siu0x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6djsq"]
+size = Vector2(30, 19)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fbnad"]
+size = Vector2(32, 22)
+
+[sub_resource type="Animation" id="Animation_ofpf5"]
+resource_name = "on"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Texture:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_e32q4")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Texture:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Texture:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_30vwj"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Texture:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_e32q4")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Texture:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Texture:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_cqvl7"]
+resource_name = "off"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Texture:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_e32q4")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Texture:hframes")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Texture:frame")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wmutu"]
+_data = {
+"RESET": SubResource("Animation_30vwj"),
+"off": SubResource("Animation_cqvl7"),
+"on": SubResource("Animation_ofpf5")
+}
+
+[node name="spikes" instance=ExtResource("1_iqyav")]
+script = ExtResource("2_siu0x")
+damage = 10
+
+[node name="Collision" parent="." index="0"]
+position = Vector2(0, 8.5)
+shape = SubResource("RectangleShape2D_6djsq")
+
+[node name="Collision" parent="DetectionArea" index="0"]
+position = Vector2(0, -12)
+shape = SubResource("RectangleShape2D_fbnad")
+
+[node name="Texture" parent="." index="2"]
+texture = ExtResource("2_e32q4")
+
+[node name="Animation" parent="." index="3"]
+libraries = {
+"": SubResource("AnimationLibrary_wmutu")
+}
+
+[node name="StateTimer" type="Timer" parent="." index="4"]
+one_shot = true
+autostart = true
+
+[connection signal="body_entered" from="DetectionArea" to="." method="on_detection_area_body_entered"]
+[connection signal="timeout" from="StateTimer" to="." method="on_state_timer_timeout"]

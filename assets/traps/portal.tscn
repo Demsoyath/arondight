@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://qffvk84b7f43"]
+
+[ext_resource type="Script" path="res://assets/traps/portal.gd" id="1_n4s1u"]
+[ext_resource type="Texture2D" uid="uid://cyadjmk3g0m7l" path="res://assets/free-medieval-tileset-pixel-art-pack/teste.png" id="1_w3h67"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iu17b"]
+size = Vector2(16, 16)
+
+[node name="Portal" type="Area2D"]
+script = ExtResource("1_n4s1u")
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_iu17b")
+
+[node name="Texture" type="Sprite2D" parent="."]
+position = Vector2(17.5, -33.5)
+scale = Vector2(3.1875, 5.1875)
+texture = ExtResource("1_w3h67")
+
+[connection signal="body_entered" from="." to="." method="on_body_entered"]

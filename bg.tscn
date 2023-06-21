@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=3 uid="uid://duobpq5ggbn7t"]
+
+[ext_resource type="Script" path="res://bg.gd" id="1_2n38t"]
+[ext_resource type="Texture2D" uid="uid://5cl8rx265bkb" path="res://assets/Medieval_Castle_Asset_Pack/Background/layer_1.png" id="1_7oxqg"]
+[ext_resource type="Texture2D" uid="uid://d08mc1o53lor6" path="res://assets/Medieval_Castle_Asset_Pack/Background/layer_2.png" id="3_shbod"]
+[ext_resource type="Texture2D" uid="uid://b7ixktqn8dh3w" path="res://assets/Medieval_Castle_Asset_Pack/Background/layer_3.png" id="4_vgq4x"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_2n38t")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="background1" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1066.25, 653.75)
+scale = Vector2(6.67344, 7.28055)
+texture = ExtResource("1_7oxqg")
+
+[node name="Layer2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(718, 973)
+scale = Vector2(4.51563, 5.03435)
+texture = ExtResource("3_shbod")
+
+[node name="Layer3" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1860, 975)
+scale = Vector2(2.70213, 5.034)
+texture = ExtResource("3_shbod")
+
+[node name="Layer4" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(3297.78, 1801)
+scale = Vector2(5.06388, 5.034)
+texture = ExtResource("3_shbod")
+
+[node name="Layer5" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1315, 1246)
+scale = Vector2(2.03281, 4.51667)
+texture = ExtResource("4_vgq4x")
+
+[node name="Layer6" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(730, 1245)
+scale = Vector2(1.62, 4.517)
+texture = ExtResource("4_vgq4x")
+
+[node name="Layer7" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1197, 1243)
+scale = Vector2(4.517, 4.517)
+texture = ExtResource("4_vgq4x")
+
+[node name="Layer8" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1196, 1232)
+scale = Vector2(4.50625, 5.36667)
+texture = ExtResource("4_vgq4x")
+
+[node name="Layer9" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1774, 1242)
+scale = Vector2(0.834375, 4.73333)
+texture = ExtResource("4_vgq4x")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]

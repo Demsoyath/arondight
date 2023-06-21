@@ -1,0 +1,44 @@
+[gd_scene load_steps=6 format=3 uid="uid://c8bd0xlgphua3"]
+
+[ext_resource type="Script" path="res://Scripts/moving_platform.gd" id="1_0onqt"]
+[ext_resource type="Texture2D" uid="uid://ctnswynjoqcn2" path="res://assets/free-medieval-tileset-pixel-art-pack/Medieval_tiles_free2.png" id="1_8drr1"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_guc8c"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4xyb2"]
+size = Vector2(144, 46)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qgdcn"]
+size = Vector2(144, 23.5)
+
+[node name="moving_platform" type="Node2D"]
+script = ExtResource("1_0onqt")
+
+[node name="platform" type="AnimatableBody2D" parent="."]
+collision_layer = 255
+collision_mask = 255
+physics_material_override = SubResource("PhysicsMaterial_guc8c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="platform"]
+position = Vector2(-8, 9)
+shape = SubResource("RectangleShape2D_4xyb2")
+
+[node name="sprite_platform" type="Sprite2D" parent="platform"]
+position = Vector2(-8, 1)
+texture = ExtResource("1_8drr1")
+region_enabled = true
+region_rect = Rect2(160, 464, 144, 32)
+
+[node name="collision" type="CollisionShape2D" parent="platform/sprite_platform"]
+position = Vector2(0, -3.75)
+shape = SubResource("RectangleShape2D_qgdcn")
+
+[node name="sprite_platform2" type="Sprite2D" parent="platform"]
+position = Vector2(-8, 25)
+texture = ExtResource("1_8drr1")
+region_enabled = true
+region_rect = Rect2(304, 528, 144, 16)
+
+[node name="collision2" type="CollisionShape2D" parent="platform/sprite_platform2"]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_qgdcn")

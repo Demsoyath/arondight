@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkv84dnav036c"]
+
+[ext_resource type="Texture2D" uid="uid://6uqei0bw4l72" path="res://assets/floresta/SET1/_PNG/SET1_bakcground_night1.png" id="1_8xins"]
+[ext_resource type="Texture2D" uid="uid://x1qnkicj6ndr" path="res://assets/floresta/SET1/_PNG/SET1_bakcground_night2.png" id="2_qik71"]
+[ext_resource type="Texture2D" uid="uid://brp2s1eedo8ab" path="res://assets/floresta/SET1/_PNG/SET1_bakcground_night3.png" id="3_1djfg"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="Set1BakcgroundNight1" type="Sprite2D" parent="."]
+position = Vector2(600.188, 770.563)
+scale = Vector2(4.21504, 5.29042)
+texture = ExtResource("1_8xins")
+
+[node name="Set1BakcgroundNight2" type="Sprite2D" parent="."]
+position = Vector2(618.875, 761)
+scale = Vector2(4.24727, 5.2337)
+texture = ExtResource("2_qik71")
+
+[node name="Set1BakcgroundNight3" type="Sprite2D" parent="."]
+position = Vector2(625, 753.5)
+scale = Vector2(4.2375, 5.23641)
+texture = ExtResource("3_1djfg")
