@@ -71,4 +71,3 @@ func attack():
 
 func update_health(target_position: Vector2, damage: int) -> void:
 	health = clamp(health - damage, 0, 10)
-
