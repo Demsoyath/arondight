@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1687376615
+::res://::1687523480
 Area2D.gd::GDScript::-1::1687361368::0::1::::<>Area2D<>::
 bg.gd::GDScript::-1::1687106555::0::1::::<>ParallaxBackground<>::
 bg.tscn::PackedScene::8592028603296548399::1687318172::0::1::::<><>::res://bg.gd<>uid://5cl8rx265bkb<>uid://d08mc1o53lor6<>uid://b7ixktqn8dh3w
@@ -19,9 +19,9 @@ signal_bus.gd::GDScript::-1::1687306349::0::1::::<>Node<>::
 Skeleton.gd::GDScript::-1::1687317818::0::1::::<>CharacterBody2D<>::
 skeleton.tscn::PackedScene::5557916441502354078::1687370047::0::1::::<><>::res://Skeleton.gd<>uid://c0wn2dinktm8e<>uid://d00xysqe16orb<>uid://18i8jfok6j23<>res://Damageable.gd
 world_02.tscn::PackedScene::4074593322313551928::1687276680::0::1::::<><>::uid://ctnswynjoqcn2<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://4noa6awb6nsx<>uid://c8bd0xlgphua3<>uid://duobpq5ggbn7t<>uid://ngj4sayqka18<>uid://clgkco73s2ks1<>uid://bfxdjpf7grwow<>uid://qffvk84b7f43
-::res://actors/::1687370047
+::res://actors/::1687377592
 AA.gd::GDScript::-1::1687188206::0::1::::AA<>CharacterBody2D<>::
-player.tscn::PackedScene::925440421309447909::1687370047::0::1::::<><>::res://Scripts/Player.gd<>uid://bmhyedl5rfl0v<>uid://croue8ij1c4rg<>res://actors/Sword.gd
+player.tscn::PackedScene::925440421309447909::1687377592::0::1::::<><>::res://Scripts/Player.gd<>uid://bmhyedl5rfl0v<>uid://croue8ij1c4rg<>res://actors/Sword.gd
 Sword.gd::GDScript::-1::1687303041::0::1::::<>Area2D<>::
 ::res://assets/::1687370048
 DECO.png::CompressedTexture2D::2052680012050420795::1687357436::1687357468::1::::<><>::
@@ -2879,7 +2879,6 @@ Idle.png::CompressedTexture2D::458645642998312561::1569209364::1687265734::1::::
 Jump (28x28).png::CompressedTexture2D::3913386357476117082::1569209352::1687265734::1::::<><>::
 ::res://GODOT/::1687366206
 ::res://GODOT/arondight/::1687366206
-::res://JOGO TESTE/::1687364064
 ::res://Levels/::1687370047
 bgmenu.tscn::PackedScene::2375871864546532745::1687370047::0::1::::<><>::res://BGMENU.gd<>uid://1vovyteik3k8<>uid://dbu0ecj70ihom<>uid://7usqjtocnndv<>uid://co1p4gx81slqj<>uid://dp4hs0m3k86f6<>uid://xan1dinkj75g<>uid://cud8l4yspuulb
 menu.tscn::PackedScene::7014212219341154551::1687370032::0::1::::<><>::res://MENU.gd<>uid://835i6o5v8pyf
@@ -2890,11 +2889,11 @@ world_03.tscn::PackedScene::3986656685450973379::1687370043::0::1::::<><>::uid:/
 world_04.tscn::PackedScene::1348850847003082606::1687370046::0::1::::<><>::uid://bhwx7e8eyww2m<>uid://c7t8wwkv8y32s<>uid://ctnswynjoqcn2<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://4noa6awb6nsx<>uid://budjiej63q7jt<>uid://baqwa2a5ic20v
 ::res://prefabs/::1687370047
 moving_platform.tscn::PackedScene::7091365606344110100::1687370047::0::1::::<><>::res://Scripts/moving_platform.gd<>uid://ctnswynjoqcn2
-::res://Scripts/::1687303041
+::res://Scripts/::1687377006
 fire.gd::GDScript::-1::1687296201::0::1::::<>StaticBody2D<>::
 moving_platform.gd::GDScript::-1::1687119999::0::1::::<>Node2D<>::
 p.gd::GDScript::-1::1687099962::0::1::::<>CharacterBody2D<>::
-Player.gd::GDScript::-1::1687303041::0::1::::<>CharacterBody2D<>::
+Player.gd::GDScript::-1::1687377006::0::1::::<>CharacterBody2D<>::
 ::res://UI/::1687318172
 health_changed_label.tscn::PackedScene::7933186164100822333::1687318172::0::1::::<><>::
 health_changed_manager.gd::GDScript::-1::1687307383::0::1::::<>Control<>::

@@ -1,4 +1,4 @@
-[gd_scene load_steps=353 format=3 uid="uid://bw2fwhbp6pcyd"]
+[gd_scene load_steps=354 format=3 uid="uid://bw2fwhbp6pcyd"]
 
 [ext_resource type="Texture2D" uid="uid://bhwx7e8eyww2m" path="res://assets/floresta/SET1/_PNG/SET1_Mainlev_build.png" id="1_7gs6g"]
 [ext_resource type="Texture2D" uid="uid://dcm6q5d3jkx3o" path="res://assets/Medieval_Castle_Asset_Pack/Tiles/arch_1.png" id="1_a2an6"]
@@ -177,6 +177,7 @@
 [ext_resource type="PackedScene" uid="uid://w445rsjsyxuf" path="res://assets/guerreiro.tscn" id="174_albti"]
 [ext_resource type="PackedScene" uid="uid://bce1kuyfm23ba" path="res://assets/PORTAL_GATE2.tscn" id="176_ay7d5"]
 [ext_resource type="PackedScene" uid="uid://cdkuwqj0u2y5l" path="res://assets/traps/SPIKES.tscn" id="177_6knjl"]
+[ext_resource type="PackedScene" uid="uid://cpoy6ftp68v0g" path="res://UI/health_changed_manager.tscn" id="178_6eg53"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p16yi"]
 texture = ExtResource("1_a2an6")
@@ -19085,3 +19086,5 @@ position = Vector2(2178, 1025)
 
 [node name="spikes10" parent="Node" instance=ExtResource("177_6knjl")]
 position = Vector2(2193, 1025)
+
+[node name="HealthChangedManager" parent="." instance=ExtResource("178_6eg53")]

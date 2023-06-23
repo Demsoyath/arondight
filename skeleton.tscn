@@ -7,8 +7,7 @@
 [ext_resource type="Script" path="res://Damageable.gd" id="5_mkrcj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1hvxv"]
-radius = 14.0
-height = 44.0
+height = 54.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gmlso"]
 atlas = ExtResource("2_n7f1f")
@@ -227,8 +226,8 @@ _data = {
 [node name="Skeleton" type="CharacterBody2D" groups=["hurtbox"]]
 script = ExtResource("1_ebl8j")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -20)
+[node name="CollisionShape2" type="CollisionShape2D" parent="."]
+position = Vector2(0, -28)
 shape = SubResource("CapsuleShape2D_1hvxv")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

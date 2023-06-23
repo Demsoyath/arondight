@@ -135,7 +135,7 @@ size = Vector2(139.5, 263)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lwueb"]
 size = Vector2(57, 52.75)
 
-[node name="guerreiro" type="CharacterBody2D"]
+[node name="guerreiro" type="CharacterBody2D" groups=["hurtbox"]]
 script = ExtResource("1_3ia0p")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -172,4 +172,5 @@ script = ExtResource("5_x3bdg")
 
 [connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
 [connection signal="body_exited" from="PlayerDetection" to="." method="_on_player_detection_body_exited"]
+[connection signal="body_entered" from="PlayerDeath" to="." method="_on_player_death_body_entered"]
 [connection signal="body_entered" from="PlayerCollision" to="." method="_on_player_collision_body_entered"]
