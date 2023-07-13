@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://dehmcm6tpyr03"]
+[gd_scene load_steps=25 format=3 uid="uid://dehmcm6tpyr03"]
 
 [ext_resource type="Texture2D" uid="uid://bhwx7e8eyww2m" path="res://assets/floresta/SET1/_PNG/SET1_Mainlev_build.png" id="1_2x5n0"]
 [ext_resource type="Texture2D" uid="uid://ctnswynjoqcn2" path="res://assets/free-medieval-tileset-pixel-art-pack/Medieval_tiles_free2.png" id="1_336x0"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://dkv84dnav036c" path="res://assets/parallax_background2.tscn" id="10_s7xxy"]
 [ext_resource type="PackedScene" uid="uid://cpoy6ftp68v0g" path="res://UI/health_changed_manager.tscn" id="11_j5t3r"]
 [ext_resource type="PackedScene" uid="uid://chr7ahm0vny3g" path="res://assets/goblin.tscn" id="11_ruhac"]
+[ext_resource type="PackedScene" uid="uid://cdkuwqj0u2y5l" path="res://assets/traps/SPIKES.tscn" id="12_5o4ms"]
 [ext_resource type="PackedScene" uid="uid://6dl5i6l5asio" path="res://assets/SETAPORTAL.tscn" id="13_e3k82"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yfo6n"]
@@ -16587,8 +16588,6 @@ text = "HEALTH"
 script = SubResource("GDScript_tcd2x")
 metadata/_edit_use_anchors_ = true
 
-[node name="Trap" type="Node2D" parent="."]
-
 [node name="HealthChangedManager" parent="." instance=ExtResource("11_j5t3r")]
 
 [node name="ParallaxBackground" parent="." instance=ExtResource("10_s7xxy")]
@@ -16596,3 +16595,41 @@ metadata/_edit_use_anchors_ = true
 [node name="SETAPORTAL" parent="." instance=ExtResource("13_e3k82")]
 visible = false
 position = Vector2(2921, 1200)
+
+[node name="Node" type="Node" parent="."]
+
+[node name="spikes" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(702, 2508)
+
+[node name="spikes2" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(732, 2508)
+
+[node name="spikes3" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(764, 2508)
+
+[node name="spikes4" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(794, 2508)
+
+[node name="spikes5" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(825, 2508)
+
+[node name="spikes6" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(855, 2508)
+
+[node name="spikes7" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(887, 2508)
+
+[node name="spikes8" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(917, 2508)
+
+[node name="spikes9" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(917, 2508)
+
+[node name="spikes10" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(947, 2508)
+
+[node name="spikes11" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(979, 2508)
+
+[node name="spikes12" parent="Node" instance=ExtResource("12_5o4ms")]
+position = Vector2(1009, 2508)

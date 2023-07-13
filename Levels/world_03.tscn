@@ -4228,6 +4228,9 @@ texture = ExtResource("4_bie40")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ksq3d"]
 texture = ExtResource("5_k115x")
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uhf0w"]
 texture = ExtResource("6_1do0p")
@@ -19023,9 +19026,6 @@ position = Vector2(2628, 147)
 [node name="guerreiro6" parent="Mobs" instance=ExtResource("174_albti")]
 position = Vector2(2519, 146)
 
-[node name="guerreiro7" parent="Mobs" instance=ExtResource("174_albti")]
-position = Vector2(3401, 432)
-
 [node name="guerreiro8" parent="Mobs" instance=ExtResource("174_albti")]
 position = Vector2(3347, 434)
 
@@ -19049,7 +19049,6 @@ theme_override_constants/shadow_outline_size = 6
 theme_override_font_sizes/font_size = 25
 text = "HEALTH"
 script = SubResource("GDScript_r5kwo")
-metadata/_edit_use_anchors_ = true
 
 [node name="Area2D" parent="." instance=ExtResource("176_ay7d5")]
 visible = false

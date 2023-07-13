@@ -1,45 +1,58 @@
 2a60927148abd1d33b818b535e306557
-::res://::1687523480
+::res://::1689274720
 Area2D.gd::GDScript::-1::1687361368::0::1::::<>Area2D<>::
 bg.gd::GDScript::-1::1687106555::0::1::::<>ParallaxBackground<>::
 bg.tscn::PackedScene::8592028603296548399::1687318172::0::1::::<><>::res://bg.gd<>uid://5cl8rx265bkb<>uid://d08mc1o53lor6<>uid://b7ixktqn8dh3w
 BGMENU.gd::GDScript::-1::1687127474::0::1::::<>ParallaxBackground<>::
-CharacterBody2D.gd::GDScript::-1::1687359378::0::1::::<>CharacterBody2D<>::
-Damageable.gd::GDScript::-1::1687307177::0::1::::Damageable<>Node<>::
+CharacterBody2D.gd::GDScript::-1::1687545167::0::1::::<>CharacterBody2D<>::
+Damageable.gd::GDScript::-1::1687545292::0::1::::Damageable<>Node<>::
 espinhos.gd::GDScript::-1::1687362003::0::1::::<>StaticBody2D<>::
 export_presets.cfg::TextFile::-1::1687364042::0::1::::<><>::
 game.apple-touch-icon.png::CompressedTexture2D::3416630205547012913::1687121905::1687121926::1::::<><>::
 game.icon.png::CompressedTexture2D::6391010912859028982::1687121905::1687121926::1::::<><>::
 game.png::CompressedTexture2D::53367873669068436::1687121905::1687121926::1::::<><>::
 gateportal2.gd::GDScript::-1::1687361256::0::1::::<>Area2D<>::
-goblin.gd::GDScript::-1::1687319770::0::1::::<>CharacterBody2D<>::
+goblin.gd::GDScript::-1::1687541545::0::1::::<>CharacterBody2D<>::
 icon.svg::CompressedTexture2D::867315332617482651::1687082632::1687082661::1::::<><>::
 MENU.gd::GDScript::-1::1687282502::0::1::::<>Node2D<>::
+world_05.tscn::PackedScene::4488480445024491131::1689274720::0::1::::<><>::
 signal_bus.gd::GDScript::-1::1687306349::0::1::::<>Node<>::
-Skeleton.gd::GDScript::-1::1687317818::0::1::::<>CharacterBody2D<>::
-skeleton.tscn::PackedScene::5557916441502354078::1687370047::0::1::::<><>::res://Skeleton.gd<>uid://c0wn2dinktm8e<>uid://d00xysqe16orb<>uid://18i8jfok6j23<>res://Damageable.gd
+Skeleton.gd::GDScript::-1::1687543162::0::1::::<>CharacterBody2D<>::
+skeleton.tscn::PackedScene::5557916441502354078::1689273834::0::1::::<><>::res://Skeleton.gd<>uid://c0wn2dinktm8e<>uid://d00xysqe16orb<>uid://18i8jfok6j23<>res://Damageable.gd
 world_02.tscn::PackedScene::4074593322313551928::1687276680::0::1::::<><>::uid://ctnswynjoqcn2<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://4noa6awb6nsx<>uid://c8bd0xlgphua3<>uid://duobpq5ggbn7t<>uid://ngj4sayqka18<>uid://clgkco73s2ks1<>uid://bfxdjpf7grwow<>uid://qffvk84b7f43
-::res://actors/::1687377592
+::res://actors/::1689273834
 AA.gd::GDScript::-1::1687188206::0::1::::AA<>CharacterBody2D<>::
-player.tscn::PackedScene::925440421309447909::1687377592::0::1::::<><>::res://Scripts/Player.gd<>uid://bmhyedl5rfl0v<>uid://croue8ij1c4rg<>res://actors/Sword.gd
+player.tscn::PackedScene::925440421309447909::1689273834::0::1::::<><>::res://Scripts/Player.gd<>uid://bmhyedl5rfl0v<>uid://croue8ij1c4rg<>res://actors/Sword.gd
 Sword.gd::GDScript::-1::1687303041::0::1::::<>Area2D<>::
-::res://assets/::1687370048
+::res://assets/::1689273835
+axe deco.png::CompressedTexture2D::738052660808141433::1689265879::1689265899::1::::<><>::
+books on the table.png::CompressedTexture2D::565837836339656715::1689266147::1689266170::1::::<><>::
+ceiling deco.png::CompressedTexture2D::4052955702501414152::1689268024::1689268047::1::::<><>::
 DECO.png::CompressedTexture2D::2052680012050420795::1687357436::1687357468::1::::<><>::
+espada deco.png::CompressedTexture2D::8592222904618503521::1689265715::1689265742::1::::<><>::
 flag.png::CompressedTexture2D::7883935650576894598::1687357861::1687357880::1::::<><>::
-goblin.tscn::PackedScene::5301201025805564150::1687370047::0::1::::<><>::res://goblin.gd<>uid://chmyewx5w75my<>uid://d3us4o7g4d8co<>uid://wl5il0wg435<>res://Damageable.gd
-guerreiro.tscn::PackedScene::1605836802649195657::1687370048::0::1::::<><>::res://CharacterBody2D.gd<>uid://bgxkiqfvjug7t<>uid://cf6debddk7hqh<>uid://du0xvtel8bq0v<>res://Damageable.gd
+goblin.tscn::PackedScene::5301201025805564150::1689273834::0::1::::<><>::res://goblin.gd<>uid://chmyewx5w75my<>uid://d3us4o7g4d8co<>uid://wl5il0wg435<>res://Damageable.gd
+graal.png::CompressedTexture2D::5756582245584829081::1689261240::1689261266::1::::<><>::
+guerreiro.tscn::PackedScene::1605836802649195657::1689273834::0::1::::<><>::res://CharacterBody2D.gd<>uid://bgxkiqfvjug7t<>uid://cf6debddk7hqh<>uid://du0xvtel8bq0v<>res://Damageable.gd
 hole.png::CompressedTexture2D::8163879579572853083::1687359828::1687359852::1::::<><>::
 Hp.gd::GDScript::-1::1687280424::0::1::::<>Label<>::
 interface.gd::GDScript::-1::1687280396::0::1::::<>RefCounted<>::
 interface.tscn::PackedScene::8895417204130647679::1687280652::0::1::::<><>::uid://b2bqxxbnk41ho<>res://assets/Hp.gd
+longbeve.png::CompressedTexture2D::1020229776594086184::1689266854::1689266908::1::::<><>::
+mesa2.0.png::CompressedTexture2D::1034383554078179361::1689261925::1689261947::1::::<><>::
+mesa4.png::CompressedTexture2D::3007210510539057734::1689262220::1689262365::1::::<><>::
+mesa 3.0.png::CompressedTexture2D::3561501642901544019::1689262007::1689262109::1::::<><>::
+mesa.png::CompressedTexture2D::6171608775524434099::1689261566::1689261588::1::::<><>::
+packs and potions.png::CompressedTexture2D::2407406133674498025::1689266297::1689266321::1::::<><>::
 parallax_background2.tscn::PackedScene::7906558046761004520::1687318172::0::1::::<><>::uid://6uqei0bw4l72<>uid://x1qnkicj6ndr<>uid://brp2s1eedo8ab
 pixil-frame-0 (3).png::CompressedTexture2D::5996176226893304716::1687116875::1687264296::1::::<><>::
 pixil-frame-0 (12).png::CompressedTexture2D::7060151661318542088::1687348566::1687348580::1::::<><>::
 placa.png::CompressedTexture2D::263127830141032879::1687348161::1687348273::1::::<><>::
-PORTAL_GATE2.tscn::PackedScene::2536653469522997578::1687370048::0::1::::<><>::res://gateportal2.gd<>uid://dokv5y6t657gp
+PORTAL_GATE2.tscn::PackedScene::2536653469522997578::1689273835::0::1::::<><>::res://gateportal2.gd<>uid://dokv5y6t657gp
 portal_gate.tscn::PackedScene::9157125541557224889::1687360915::0::1::::<><>::res://Area2D.gd<>uid://dokv5y6t657gp
 seta.png::CompressedTexture2D::2474614065819009944::1687348240::1687348273::1::::<><>::
-SETAPORTAL.tscn::PackedScene::2182769215394400102::1687370047::0::1::::<><>::res://Area2D.gd<>uid://bbiysdem8degu
+SETAPORTAL.tscn::PackedScene::2182769215394400102::1689273834::0::1::::<><>::res://Area2D.gd<>uid://bbiysdem8degu
+teste.png::CompressedTexture2D::4811331281291021342::1689261831::1689261853::1::::<><>::
 ::res://assets/amontoado/::1687089324
 93e3a3e6-cef6-4188-be9e-fd36d9ea4cd1.png::CompressedTexture2D::4283048092496775978::1686998580::1687089322::1::::<><>::
 adc9d349-4b60-4f98-9c62-c54d08d3208a.png::CompressedTexture2D::6102529605189659762::1686998093::1687089323::1::::<><>::
@@ -2657,14 +2670,14 @@ rock_3.png::CompressedTexture2D::290524019283346369::1575132122::1687082973::1::
 shop.png::CompressedTexture2D::7194570676116466862::1575139418::1687082973::1::::<><>::
 shop_anim.png::CompressedTexture2D::2507119149365953869::1575139452::1687082973::1::::<><>::
 sign.png::CompressedTexture2D::9124440969055743562::1575137220::1687082973::1::::<><>::
-::res://assets/traps/::1687370048
-espinhos.tscn::PackedScene::4313230872375578728::1687370048::0::1::::<><>::res://espinhos.gd<>uid://dvmrbrm686l8y<>uid://63rba54m3rmg
+::res://assets/traps/::1689273835
+espinhos.tscn::PackedScene::4313230872375578728::1689273835::0::1::::<><>::res://espinhos.gd<>uid://dvmrbrm686l8y<>uid://63rba54m3rmg
 fire.tscn::PackedScene::2785044610387001202::1687318172::0::1::::<><>::uid://chvt3316d7ywx<>res://Scripts/fire.gd<>uid://dvmrbrm686l8y
-object_template.tscn::PackedScene::5308720343012096243::1687370047::0::1::::<><>::
+object_template.tscn::PackedScene::5308720343012096243::1687542730::0::1::::<><>::
 portal.gd::GDScript::-1::1687349512::0::1::::<>Area2D<>::
-portal.tscn::PackedScene::1133685051146927482::1687370047::0::1::::<><>::res://assets/traps/portal.gd<>uid://cyadjmk3g0m7l
+portal.tscn::PackedScene::1133685051146927482::1689273834::0::1::::<><>::res://assets/traps/portal.gd<>uid://cyadjmk3g0m7l
 SPIKES.gd::GDScript::-1::1687363404::0::1::::<>StaticBody2D<>::
-SPIKES.tscn::PackedScene::5005306158602678367::1687370048::0::1::::<><>::uid://chvt3316d7ywx<>uid://63rba54m3rmg<>res://assets/traps/SPIKES.gd
+SPIKES.tscn::PackedScene::5005306158602678367::1689273835::0::1::::<><>::uid://chvt3316d7ywx<>uid://63rba54m3rmg<>res://assets/traps/SPIKES.gd
 ::res://assets/traps/Free/::1687265734
 20 Enemies.png::CompressedTexture2D::8881030248242559583::1569880642::1687265734::1::::<><>::
 Hello.png::CompressedTexture2D::459750154077318503::1569879642::1687265734::1::::<><>::
@@ -2879,22 +2892,25 @@ Idle.png::CompressedTexture2D::458645642998312561::1569209364::1687265734::1::::
 Jump (28x28).png::CompressedTexture2D::3913386357476117082::1569209352::1687265734::1::::<><>::
 ::res://GODOT/::1687366206
 ::res://GODOT/arondight/::1687366206
-::res://Levels/::1687370047
-bgmenu.tscn::PackedScene::2375871864546532745::1687370047::0::1::::<><>::res://BGMENU.gd<>uid://1vovyteik3k8<>uid://dbu0ecj70ihom<>uid://7usqjtocnndv<>uid://co1p4gx81slqj<>uid://dp4hs0m3k86f6<>uid://xan1dinkj75g<>uid://cud8l4yspuulb
-menu.tscn::PackedScene::7014212219341154551::1687370032::0::1::::<><>::res://MENU.gd<>uid://835i6o5v8pyf
+::res://Levels/::1689273834
+bgmenu.tscn::PackedScene::2375871864546532745::1689273834::0::1::::<><>::res://BGMENU.gd<>uid://1vovyteik3k8<>uid://dbu0ecj70ihom<>uid://7usqjtocnndv<>uid://co1p4gx81slqj<>uid://dp4hs0m3k86f6<>uid://xan1dinkj75g<>uid://cud8l4yspuulb
+menu.tscn::PackedScene::7014212219341154551::1689273817::0::1::::<><>::res://MENU.gd<>uid://835i6o5v8pyf
 world_01.gd::GDScript::-1::1687280909::0::1::::<>Node2D<>::
-world_01.tscn::PackedScene::8713239004405271755::1687370034::0::1::::<><>::uid://ctnswynjoqcn2<>uid://ngj4sayqka18<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://duobpq5ggbn7t<>uid://clgkco73s2ks1<>uid://4noa6awb6nsx<>uid://c8bd0xlgphua3<>uid://bfxdjpf7grwow<>uid://qffvk84b7f43<>uid://cpoy6ftp68v0g
-world_02.tscn::PackedScene::7455200924464279042::1687370038::0::1::::<><>::uid://bhwx7e8eyww2m<>uid://ctnswynjoqcn2<>uid://bo5gm8ifkbbu6<>uid://c7t8wwkv8y32s<>uid://8j3hm0g0ljib<>uid://4noa6awb6nsx<>uid://budjiej63q7jt<>uid://ngj4sayqka18<>uid://baqwa2a5ic20v<>uid://dkv84dnav036c<>uid://cpoy6ftp68v0g<>uid://chr7ahm0vny3g<>uid://6dl5i6l5asio
-world_03.tscn::PackedScene::3986656685450973379::1687370043::0::1::::<><>::uid://bhwx7e8eyww2m<>uid://dcm6q5d3jkx3o<>uid://c7t8wwkv8y32s<>uid://ctnswynjoqcn2<>uid://cmnntji435wkh<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://d3gl5e58ykpal<>uid://ddbk6pxn4ns38<>uid://4noa6awb6nsx<>uid://c1nkms2m888jl<>uid://budjiej63q7jt<>uid://baqwa2a5ic20v<>uid://dd5mde0mj4p3u<>uid://8yua5wsbxier<>uid://ngj4sayqka18<>uid://b8ko0y7p5y6as<>uid://5vbolx0j6rbv<>uid://63rba54m3rmg<>uid://damt3p5mbtqjk<>uid://bwxf8y6decbyq<>uid://12axatmmya6v<>uid://b1qcinuh5n8sx<>uid://bn2ieuo07rmb3<>uid://ckcfdgj3jrw0d<>uid://c55nkwf8g0wac<>uid://ds205rsdpapgg<>uid://cucf111sqdynp<>uid://kg15vc0avpk3<>uid://ddkuunlsnnqnp<>uid://da4uujlkgqqsh<>uid://bp5suapmucpay<>uid://bfx2lkbesuxji<>uid://bryfokgb4vvg6<>uid://u4erluvejiyv<>uid://b360myvlrogvf<>uid://cgfacsemv834x<>uid://d4jgrstsjyv1m<>uid://dudpk7771li7y<>uid://cdiebv4uq3vsq<>uid://3k5wnq6xfy4g<>uid://djl0ju6gqvqph<>uid://b0o6dlmtjwok8<>uid://d2qek86w7tn4d<>uid://xvwt33udwpmf<>uid://v03mhum0iwn5<>uid://dmp30k43pr6gh<>uid://jmx0cpmwcavm<>uid://bipi12wuy4p5m<>uid://5gtocgyq3l8b<>uid://byoro483vw3pu<>uid://djn7tu3l6oqrq<>uid://sklms71pduds<>uid://bnwxrqxi3xrxw<>uid://bfs6xdpugcwvg<>uid://ptil6baamw2u<>uid://dwfw46cw4lsv8<>uid://bhk5sn3w4ewh5<>uid://bfw08kivoxe3j<>uid://cxo6bsjtyris1<>uid://b8kn2uawsooaw<>uid://crrfxxd5okm01<>uid://d8mbsusgeqf3<>uid://d5bavr3g8lw4<>uid://tqw8yonbcmmu<>uid://7huqo4ssnqoc<>uid://b18bgp3ko20kw<>uid://vuuuepkj23od<>uid://bf8dfhriwitrw<>uid://bnrbjhnehn103<>uid://ci6kxkv361ett<>uid://bw5uxh83goqbu<>uid://d1o5g6gttvaoe<>uid://dylmkpkv28fqg<>uid://cfo5sw4guqg5k<>uid://dcr2wvgbjcymt<>uid://c36m8b41viq7f<>uid://da57aht3n1nq4<>uid://dgdqwctt5hihh<>uid://b7ntdj3hkvmxx<>uid://c0p1k3c8g8lhw<>uid://dq02caodg7fvx<>uid://cgr6kq8qnvpp8<>uid://dokv5y6t657gp<>uid://4ills6mfmarj<>uid://dklbjeftc84ri<>uid://clkonym2ynocf<>uid://cx7jj654xdoml<>uid://c60digr16f8du<>uid://frt4n65hhx2s<>uid://bkuaexk5yqax<>uid://bl01eg57cc54i<>uid://hw844if3akx3<>uid://bwo7uuqud5erw<>uid://kjxhpavy5jgt<>uid://dyk05orsq8rby<>uid://8hp1m1nvw2eb<>uid://cfa2hyu2w1omk<>uid://ce13vw3wdo6qr<>uid://bjjhwooes3jf1<>uid://qrn846ydco25<>uid://diwqtvodvo1sb<>uid://brp01r0bnqgt<>uid://cqamoqp7xlhyq<>uid://d1nm6qkkis6fn<>uid://cjo0b5avsqyj1<>uid://bi4lv4iygn5q4<>uid://b54ihc3b6nwmi<>uid://dja6834q8ebtt<>uid://dbdw8imyujfw<>uid://c6yvc6bare3mx<>uid://datbtn5m1be27<>uid://dhgwio1dis7ny<>uid://ccyq6y718apce<>uid://y78woh8o3yle<>uid://bb3evnf0g0d0y<>uid://c63a76j36jbc4<>uid://chpe7gj1kq8ku<>uid://cu62fdldo80uc<>uid://b40nisli0r0b7<>uid://drxojl3y44a51<>uid://c35l6ck7f7jd5<>uid://7obkd3mqqllv<>uid://bd7xix5cxcb2l<>uid://cv5xr5ybanaoo<>uid://bfs2tldf4avnj<>uid://btwwhdpvmhehl<>uid://b61cvtxm23qo5<>uid://cmtxvptn2348b<>uid://ca8tbx3tcfwrj<>uid://boxrcj6vftk21<>uid://cjmj1rcdo5tgd<>uid://cjkylfu3atokh<>uid://c7wxuht4k1bm0<>uid://w2pw5o3iymkd<>uid://c88mo636ox1yd<>uid://dofkpn16xx20x<>uid://dc5x7ny5s1tu3<>uid://ckyxiytxy12fl<>uid://desc4yighf3e7<>uid://chyahl4i10cyx<>uid://btqa7r6nhd6oo<>uid://brnxudupqusoc<>uid://bvl6ulsigynn5<>uid://n170lxtrlydm<>uid://dajmrpivar7ng<>uid://bnehi4cbenk0c<>uid://b4vmarogoo4vk<>uid://cdb2dv6q4hcjc<>uid://2rrtfp546gg0<>uid://dbrqsfp17h1f2<>uid://cbt64k2ewt21x<>uid://l2bbfxf67qnp<>uid://o38p3spg837<>uid://cpuxq0x5u2mew<>uid://brcjls8qulwp<>uid://cb5qg0idth56c<>uid://ckqxwugbv1arr<>uid://kh0cuyqljpw2<>uid://del42r73f2kyt<>uid://cbmrfinfth5vl<>uid://dgbuuyjewww21<>uid://cjg4s6i2kdrq3<>uid://bnsfirfb6py34<>uid://cssy3y1qbk7q<>uid://clu4andaxhsyp<>uid://dbgq3uqxmd5j0<>uid://dwtbbfeiomrnj<>uid://1y08d7o838g2<>uid://dyfg0upmrjlvt<>uid://7buroagb0csi<>uid://bymiekj0sjitw<>uid://dl4po076b0xaq<>uid://crh78a624wj2w<>uid://w445rsjsyxuf<>uid://bce1kuyfm23ba<>uid://cdkuwqj0u2y5l
-world_04.tscn::PackedScene::1348850847003082606::1687370046::0::1::::<><>::uid://bhwx7e8eyww2m<>uid://c7t8wwkv8y32s<>uid://ctnswynjoqcn2<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://4noa6awb6nsx<>uid://budjiej63q7jt<>uid://baqwa2a5ic20v
-::res://prefabs/::1687370047
-moving_platform.tscn::PackedScene::7091365606344110100::1687370047::0::1::::<><>::res://Scripts/moving_platform.gd<>uid://ctnswynjoqcn2
+world_01.tscn::PackedScene::8713239004405271755::1689273820::0::1::::<><>::uid://ctnswynjoqcn2<>uid://ngj4sayqka18<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://duobpq5ggbn7t<>uid://clgkco73s2ks1<>uid://4noa6awb6nsx<>uid://c8bd0xlgphua3<>uid://bfxdjpf7grwow<>uid://qffvk84b7f43<>uid://cpoy6ftp68v0g
+world_02.tscn::PackedScene::7455200924464279042::1689273824::0::1::::<><>::uid://bhwx7e8eyww2m<>uid://ctnswynjoqcn2<>uid://bo5gm8ifkbbu6<>uid://c7t8wwkv8y32s<>uid://8j3hm0g0ljib<>uid://4noa6awb6nsx<>uid://budjiej63q7jt<>uid://ngj4sayqka18<>uid://baqwa2a5ic20v<>uid://dkv84dnav036c<>uid://cpoy6ftp68v0g<>uid://chr7ahm0vny3g<>uid://6dl5i6l5asio
+world_03.tscn::PackedScene::3986656685450973379::1689273829::0::1::::<><>::uid://bhwx7e8eyww2m<>uid://dcm6q5d3jkx3o<>uid://c7t8wwkv8y32s<>uid://ctnswynjoqcn2<>uid://cmnntji435wkh<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://d3gl5e58ykpal<>uid://ddbk6pxn4ns38<>uid://4noa6awb6nsx<>uid://c1nkms2m888jl<>uid://budjiej63q7jt<>uid://baqwa2a5ic20v<>uid://dd5mde0mj4p3u<>uid://8yua5wsbxier<>uid://ngj4sayqka18<>uid://b8ko0y7p5y6as<>uid://5vbolx0j6rbv<>uid://63rba54m3rmg<>uid://damt3p5mbtqjk<>uid://bwxf8y6decbyq<>uid://12axatmmya6v<>uid://b1qcinuh5n8sx<>uid://bn2ieuo07rmb3<>uid://ckcfdgj3jrw0d<>uid://c55nkwf8g0wac<>uid://ds205rsdpapgg<>uid://cucf111sqdynp<>uid://kg15vc0avpk3<>uid://ddkuunlsnnqnp<>uid://da4uujlkgqqsh<>uid://bp5suapmucpay<>uid://bfx2lkbesuxji<>uid://bryfokgb4vvg6<>uid://u4erluvejiyv<>uid://b360myvlrogvf<>uid://cgfacsemv834x<>uid://d4jgrstsjyv1m<>uid://dudpk7771li7y<>uid://cdiebv4uq3vsq<>uid://3k5wnq6xfy4g<>uid://djl0ju6gqvqph<>uid://b0o6dlmtjwok8<>uid://d2qek86w7tn4d<>uid://xvwt33udwpmf<>uid://v03mhum0iwn5<>uid://dmp30k43pr6gh<>uid://jmx0cpmwcavm<>uid://bipi12wuy4p5m<>uid://5gtocgyq3l8b<>uid://byoro483vw3pu<>uid://djn7tu3l6oqrq<>uid://sklms71pduds<>uid://bnwxrqxi3xrxw<>uid://bfs6xdpugcwvg<>uid://ptil6baamw2u<>uid://dwfw46cw4lsv8<>uid://bhk5sn3w4ewh5<>uid://bfw08kivoxe3j<>uid://cxo6bsjtyris1<>uid://b8kn2uawsooaw<>uid://crrfxxd5okm01<>uid://d8mbsusgeqf3<>uid://d5bavr3g8lw4<>uid://tqw8yonbcmmu<>uid://7huqo4ssnqoc<>uid://b18bgp3ko20kw<>uid://vuuuepkj23od<>uid://bf8dfhriwitrw<>uid://bnrbjhnehn103<>uid://ci6kxkv361ett<>uid://bw5uxh83goqbu<>uid://d1o5g6gttvaoe<>uid://dylmkpkv28fqg<>uid://cfo5sw4guqg5k<>uid://dcr2wvgbjcymt<>uid://c36m8b41viq7f<>uid://da57aht3n1nq4<>uid://dgdqwctt5hihh<>uid://b7ntdj3hkvmxx<>uid://c0p1k3c8g8lhw<>uid://dq02caodg7fvx<>uid://cgr6kq8qnvpp8<>uid://dokv5y6t657gp<>uid://4ills6mfmarj<>uid://dklbjeftc84ri<>uid://clkonym2ynocf<>uid://cx7jj654xdoml<>uid://c60digr16f8du<>uid://frt4n65hhx2s<>uid://bkuaexk5yqax<>uid://bl01eg57cc54i<>uid://hw844if3akx3<>uid://bwo7uuqud5erw<>uid://kjxhpavy5jgt<>uid://dyk05orsq8rby<>uid://8hp1m1nvw2eb<>uid://cfa2hyu2w1omk<>uid://ce13vw3wdo6qr<>uid://bjjhwooes3jf1<>uid://qrn846ydco25<>uid://diwqtvodvo1sb<>uid://brp01r0bnqgt<>uid://cqamoqp7xlhyq<>uid://d1nm6qkkis6fn<>uid://cjo0b5avsqyj1<>uid://bi4lv4iygn5q4<>uid://b54ihc3b6nwmi<>uid://dja6834q8ebtt<>uid://dbdw8imyujfw<>uid://c6yvc6bare3mx<>uid://datbtn5m1be27<>uid://dhgwio1dis7ny<>uid://ccyq6y718apce<>uid://y78woh8o3yle<>uid://bb3evnf0g0d0y<>uid://c63a76j36jbc4<>uid://chpe7gj1kq8ku<>uid://cu62fdldo80uc<>uid://b40nisli0r0b7<>uid://drxojl3y44a51<>uid://c35l6ck7f7jd5<>uid://7obkd3mqqllv<>uid://bd7xix5cxcb2l<>uid://cv5xr5ybanaoo<>uid://bfs2tldf4avnj<>uid://btwwhdpvmhehl<>uid://b61cvtxm23qo5<>uid://cmtxvptn2348b<>uid://ca8tbx3tcfwrj<>uid://boxrcj6vftk21<>uid://cjmj1rcdo5tgd<>uid://cjkylfu3atokh<>uid://c7wxuht4k1bm0<>uid://w2pw5o3iymkd<>uid://c88mo636ox1yd<>uid://dofkpn16xx20x<>uid://dc5x7ny5s1tu3<>uid://ckyxiytxy12fl<>uid://desc4yighf3e7<>uid://chyahl4i10cyx<>uid://btqa7r6nhd6oo<>uid://brnxudupqusoc<>uid://bvl6ulsigynn5<>uid://n170lxtrlydm<>uid://dajmrpivar7ng<>uid://bnehi4cbenk0c<>uid://b4vmarogoo4vk<>uid://cdb2dv6q4hcjc<>uid://2rrtfp546gg0<>uid://dbrqsfp17h1f2<>uid://cbt64k2ewt21x<>uid://l2bbfxf67qnp<>uid://o38p3spg837<>uid://cpuxq0x5u2mew<>uid://brcjls8qulwp<>uid://cb5qg0idth56c<>uid://ckqxwugbv1arr<>uid://kh0cuyqljpw2<>uid://del42r73f2kyt<>uid://cbmrfinfth5vl<>uid://dgbuuyjewww21<>uid://cjg4s6i2kdrq3<>uid://bnsfirfb6py34<>uid://cssy3y1qbk7q<>uid://clu4andaxhsyp<>uid://dbgq3uqxmd5j0<>uid://dwtbbfeiomrnj<>uid://1y08d7o838g2<>uid://dyfg0upmrjlvt<>uid://7buroagb0csi<>uid://bymiekj0sjitw<>uid://dl4po076b0xaq<>uid://crh78a624wj2w<>uid://w445rsjsyxuf<>uid://bce1kuyfm23ba<>uid://cdkuwqj0u2y5l<>uid://cpoy6ftp68v0g
+world_04.tscn::PackedScene::1348850847003082606::1689273834::0::1::::<><>::uid://bhwx7e8eyww2m<>uid://dcm6q5d3jkx3o<>uid://c7t8wwkv8y32s<>uid://ctnswynjoqcn2<>uid://cmnntji435wkh<>uid://bo5gm8ifkbbu6<>uid://8j3hm0g0ljib<>uid://d3gl5e58ykpal<>uid://ddbk6pxn4ns38<>uid://4noa6awb6nsx<>uid://budjiej63q7jt<>uid://c1nkms2m888jl<>uid://baqwa2a5ic20v<>uid://dd5mde0mj4p3u<>uid://8yua5wsbxier<>uid://b8ko0y7p5y6as<>uid://5vbolx0j6rbv<>uid://63rba54m3rmg<>uid://damt3p5mbtqjk<>uid://bwxf8y6decbyq<>uid://12axatmmya6v<>uid://b1qcinuh5n8sx<>uid://bn2ieuo07rmb3<>uid://ckcfdgj3jrw0d<>uid://c55nkwf8g0wac<>uid://ds205rsdpapgg<>uid://cucf111sqdynp<>uid://kg15vc0avpk3<>uid://ddkuunlsnnqnp<>uid://da4uujlkgqqsh<>uid://bp5suapmucpay<>uid://bfx2lkbesuxji<>uid://bryfokgb4vvg6<>uid://u4erluvejiyv<>uid://b360myvlrogvf<>uid://cgfacsemv834x<>uid://d4jgrstsjyv1m<>uid://dudpk7771li7y<>uid://cdiebv4uq3vsq<>uid://3k5wnq6xfy4g<>uid://djl0ju6gqvqph<>uid://b0o6dlmtjwok8<>uid://d2qek86w7tn4d<>uid://xvwt33udwpmf<>uid://v03mhum0iwn5<>uid://dmp30k43pr6gh<>uid://jmx0cpmwcavm<>uid://bipi12wuy4p5m<>uid://5gtocgyq3l8b<>uid://byoro483vw3pu<>uid://djn7tu3l6oqrq<>uid://sklms71pduds<>uid://bnwxrqxi3xrxw<>uid://bfs6xdpugcwvg<>uid://ptil6baamw2u<>uid://dwfw46cw4lsv8<>uid://bhk5sn3w4ewh5<>uid://bfw08kivoxe3j<>uid://cxo6bsjtyris1<>uid://b8kn2uawsooaw<>uid://crrfxxd5okm01<>uid://d8mbsusgeqf3<>uid://d5bavr3g8lw4<>uid://tqw8yonbcmmu<>uid://7huqo4ssnqoc<>uid://b18bgp3ko20kw<>uid://vuuuepkj23od<>uid://bf8dfhriwitrw<>uid://bnrbjhnehn103<>uid://ci6kxkv361ett<>uid://bw5uxh83goqbu<>uid://d1o5g6gttvaoe<>uid://dylmkpkv28fqg<>uid://cfo5sw4guqg5k<>uid://dcr2wvgbjcymt<>uid://c36m8b41viq7f<>uid://dgdqwctt5hihh<>uid://b7ntdj3hkvmxx<>uid://dokv5y6t657gp<>uid://coasclh2iqh0l<>uid://dq02caodg7fvx<>uid://4ills6mfmarj<>uid://h62xyyp721ng<>uid://da57aht3n1nq4<>uid://dklbjeftc84ri<>uid://clkonym2ynocf<>uid://d28iocv6hc6k6<>uid://cx7jj654xdoml<>uid://c0p1k3c8g8lhw<>uid://cgr6kq8qnvpp8<>uid://he3be4raakyh<>uid://f2i0c0dbwxlj<>uid://dqfgmwqpiixc6<>uid://cg6ix8m03ey4f<>uid://c60digr16f8du<>uid://c2mgep7jrw8ow<>uid://frt4n65hhx2s<>uid://cp0kasqegkx75<>uid://bkuaexk5yqax<>uid://bl01eg57cc54i<>uid://cgke1o8w1xqtr<>uid://b053pevfoiutb<>uid://hw844if3akx3<>uid://bwo7uuqud5erw<>uid://dn1wjixnmpkgq<>uid://kjxhpavy5jgt<>uid://cgwlhpeflajcd<>uid://dyk05orsq8rby<>uid://cbnvl2vwtndk5<>uid://8hp1m1nvw2eb<>uid://bd7wxsyywskf7<>uid://cfa2hyu2w1omk<>uid://duxrg6hjjij6w<>uid://ce13vw3wdo6qr<>uid://c2qhojxww6f6b<>uid://bjjhwooes3jf1<>uid://dkq2n5ney1wup<>uid://qrn846ydco25<>uid://1ik87r1ni87x<>uid://diwqtvodvo1sb<>uid://brp01r0bnqgt<>uid://dqq24ao6n43kb<>uid://cqamoqp7xlhyq<>uid://s187c1u7hugm<>uid://d1nm6qkkis6fn<>uid://cjo0b5avsqyj1<>uid://db7t1lqfiqcyq<>uid://bi4lv4iygn5q4<>uid://b54ihc3b6nwmi<>uid://dja6834q8ebtt<>uid://dbdw8imyujfw<>uid://c6yvc6bare3mx<>uid://boomy6cng646q<>uid://datbtn5m1be27<>uid://coj7udov4m3gg<>uid://dhgwio1dis7ny<>uid://l3n42j0v0rjx<>uid://ccyq6y718apce<>uid://y78woh8o3yle<>uid://cg0ass3vmrr7i<>uid://c6nrmcfomily6<>uid://bb3evnf0g0d0y<>uid://c63a76j36jbc4<>uid://daj5rsejgpk8l<>uid://chpe7gj1kq8ku<>uid://db110ckv8t7ip<>uid://cu62fdldo80uc<>uid://i2u37biaj2f4<>uid://b40nisli0r0b7<>uid://48pm58ladjpt<>uid://drxojl3y44a51<>uid://v47b887jb6ld<>uid://c35l6ck7f7jd5<>uid://7obkd3mqqllv<>uid://dkkabhpu0elxt<>uid://du3ujfr5obre6<>uid://bd7xix5cxcb2l<>uid://cv5xr5ybanaoo<>uid://blabid2cvh535<>uid://0bos15f2no1p<>uid://bfs2tldf4avnj<>uid://btwwhdpvmhehl<>uid://bx4axa25d6u6n<>uid://b61cvtxm23qo5<>uid://ct6tq3btjuyd4<>uid://casv6nj0wnhcw<>uid://cmtxvptn2348b<>uid://ca8tbx3tcfwrj<>uid://bq0hn87d3hf0v<>uid://duoewkhqh713r<>uid://boxrcj6vftk21<>uid://bi3yk2k3i5rl3<>uid://cjmj1rcdo5tgd<>uid://cjkylfu3atokh<>uid://krrvcesl8of6<>uid://c7wxuht4k1bm0<>uid://icdjcckj4d3p<>uid://w2pw5o3iymkd<>uid://c88mo636ox1yd<>uid://bakfvlfher0a4<>uid://dofkpn16xx20x<>uid://oshbg457a265<>uid://bx0juabulwaom<>uid://dc5x7ny5s1tu3<>uid://ckyxiytxy12fl<>uid://desc4yighf3e7<>uid://chyahl4i10cyx<>uid://btqa7r6nhd6oo<>uid://brnxudupqusoc<>uid://bvl6ulsigynn5<>uid://n170lxtrlydm<>uid://dajmrpivar7ng<>uid://bnehi4cbenk0c<>uid://b4vmarogoo4vk<>uid://cdb2dv6q4hcjc<>uid://2rrtfp546gg0<>uid://dbrqsfp17h1f2<>uid://cbt64k2ewt21x<>uid://l2bbfxf67qnp<>uid://o38p3spg837<>uid://cpuxq0x5u2mew<>uid://brcjls8qulwp<>uid://cb5qg0idth56c<>uid://ckqxwugbv1arr<>uid://kh0cuyqljpw2<>uid://del42r73f2kyt<>uid://cbmrfinfth5vl<>uid://dgbuuyjewww21<>uid://cjg4s6i2kdrq3<>uid://bnsfirfb6py34<>uid://cssy3y1qbk7q<>uid://clu4andaxhsyp<>uid://dbgq3uqxmd5j0<>uid://dwtbbfeiomrnj<>uid://1y08d7o838g2<>uid://dyfg0upmrjlvt<>uid://7buroagb0csi<>uid://bymiekj0sjitw<>uid://dl4po076b0xaq<>uid://crh78a624wj2w<>uid://ngj4sayqka18<>uid://w445rsjsyxuf<>uid://bce1kuyfm23ba<>uid://cpoy6ftp68v0g
+::res://ogg.ogv/::1689276248
+final.ogg::AudioStreamOggVorbis::3938635709355386676::1689276275::1689276342::1::::<><>::
+::res://prefabs/::1689273834
+moving_platform.tscn::PackedScene::7091365606344110100::1689273834::0::1::::<><>::res://Scripts/moving_platform.gd<>uid://ctnswynjoqcn2
 ::res://Scripts/::1687377006
 fire.gd::GDScript::-1::1687296201::0::1::::<>StaticBody2D<>::
 moving_platform.gd::GDScript::-1::1687119999::0::1::::<>Node2D<>::
 p.gd::GDScript::-1::1687099962::0::1::::<>CharacterBody2D<>::
 Player.gd::GDScript::-1::1687377006::0::1::::<>CharacterBody2D<>::
-::res://UI/::1687318172
-health_changed_label.tscn::PackedScene::7933186164100822333::1687318172::0::1::::<><>::
+::res://UI/::1689273835
+health_changed_label.gd::GDScript::-1::1687546535::0::1::::<>Label<>::
+health_changed_label.tscn::PackedScene::7933186164100822333::1689273835::0::1::::<><>::res://UI/health_changed_label.gd
 health_changed_manager.gd::GDScript::-1::1687307383::0::1::::<>Control<>::
-health_changed_manager.tscn::PackedScene::5856088170643286212::1687318172::0::1::::<><>::res://UI/health_changed_manager.gd<>uid://dla5ogerkkugr
+health_changed_manager.tscn::PackedScene::5856088170643286212::1689273835::0::1::::<><>::res://UI/health_changed_manager.gd<>uid://dla5ogerkkugr

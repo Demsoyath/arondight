@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://b47iu8ovtymnb"]
+
+[ext_resource type="VideoStream" path="res://ogg.ogv/final.ogv" id="1_mcf4c"]
+
+[node name="world_05" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+offset_left = -710.0
+offset_top = -358.0
+offset_right = 716.0
+offset_bottom = 433.0
+stream = ExtResource("1_mcf4c")
+autoplay = true
+expand = true

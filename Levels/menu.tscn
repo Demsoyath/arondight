@@ -24,5 +24,19 @@ text = "QUIT"
 
 [node name="BGMENU" parent="." instance=ExtResource("2_k16fg")]
 
+[node name="Label" type="Label" parent="."]
+offset_left = 467.0
+offset_top = 69.0
+offset_right = 908.0
+offset_bottom = 208.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 5
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 9
+theme_override_constants/shadow_outline_size = 6
+theme_override_font_sizes/font_size = 74
+text = "ARONDIGHT"
+
 [connection signal="pressed" from="play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
